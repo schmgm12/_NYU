@@ -5,11 +5,11 @@ def ask_for_slices_bread():
 
 def ask_for_peanut_butter():
     """asks for the amount of units of peanut butter"""
-    return int(input("\nHow many sandwiches worth of peanut butter do you have\n"))
+    return int(input("\nHow many spoons of peanut butter do you have\n"))
 
 def ask_for_jelly():
     """asks for the amount of units of jelly"""
-    return int(input("\nHow many sandwiches worth of jelly do you have?\n"))
+    return int(input("\nHow many spoons of jelly do you have?\n"))
 
 def left_over_bread(bread_input):
     """tells someone that there is a leftover slice"""
