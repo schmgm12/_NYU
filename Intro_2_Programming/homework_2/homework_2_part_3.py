@@ -13,7 +13,7 @@ def sleep_in_checker(day_of_week):
     day_of_week.lower() == 'thursday':
         print("You need to set an alarm for the morning...")
     else:
-        print("Error: day of week not found.")
+        print("Error: day of week not found.  Check your spelling.")
 
 def main():
     today = ask_day()
